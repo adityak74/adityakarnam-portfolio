@@ -1,26 +1,29 @@
+import Typing from 'react-typing-animation';
 import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
-      <section id="contact">
-          <div className="row section-head">
-            <div className="ten columns">
-              <p className="lead">
-              Feel free to contact me for any work or suggestions below
-              </p>
-            </div>
-          </div>
-          <div className="row">
+      <section id="contact" style={{ background: 'black' }}>
+        <div className="row" style={{ background: 'black' }}>
+          <center>
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+                <img src="images/aryabhatta.png" style={{
+                  margin: '0 auto',
+                  alignContent: 'center',
+                  width: '45%',
+                }} />
+                <Typing loop={true} speed={100}>
+                  <span>ISRO: Performance normal. Decoding message...../%@%/</span>
+                  <br />
+                  <span>ISRO: Connecting to akarnam37@gmail.com</span>
+                  <Typing.Backspace count={100} />
+                </Typing>
               </div>
             </aside>
-          </div>
-        </section>
-        );
+          </center>
+        </div>
+      </section>
+    );
   }
 }

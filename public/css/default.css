@@ -28,7 +28,7 @@ e. Others
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -85,6 +85,11 @@ pre {
    white-space: pre;
    white-space: pre-wrap;
    word-wrap: break-word;
+}
+
+.ascii-art {
+   font-family: monospace;
+   white-space: pre;
 }
 
 blockquote, q { quotes: &#8220 &#8220; }

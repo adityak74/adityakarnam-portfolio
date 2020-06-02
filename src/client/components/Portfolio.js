@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 export default class Porfolio extends Component {
   render() {
+    const resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-        <div className="calendar">
-          Loading the data just for you.
-        </div>
-          {/* <h1>Check Out Some of My Works.</h1>
-          <div id="modal-01" className="popup-modal">Content is here</div>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
+          {/*
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
@@ -29,8 +25,9 @@ export default class Porfolio extends Component {
                 </div>
               )
             })
-          }
-          </div> */}
+          */}
+          </div>
+          <div className="calendar" />
         </div>
       </div>
   </section>

@@ -3,9 +3,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import PodcastSection from './components/PodcastSection';
+import RocketArt from './components/RocketArt';
 import resumeData from './resumeData';
 
 class App extends Component {
@@ -13,11 +14,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={resumeData} />
-        <About resumeData={resumeData} />
+        <PodcastSection resumeData={resumeData} />
         <Resume resumeData={resumeData} />
         <Portfolio resumeData={resumeData} />
-        <Testimonials resumeData={resumeData} />
+        <RocketArt resumeData={resumeData} />
         <ContactUs resumeData={resumeData} />
+        <About resumeData={resumeData} />
         <Footer resumeData={resumeData} />
       </div>
     );
