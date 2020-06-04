@@ -5,7 +5,7 @@ const resumeData = {
   "linkedinId":"adityakarnamgrao",
   "skypeid": "",
   "tagline": "Imagineer | Space Enthusiast | Chef | ML/DL Enthusiast | Innovator | Full Stack Developer",
-  "roleDescription": "I have been fixing broken bits since evolution. Pursuing Masters in Computer Science with specialization in Data Science. My research interests include Pure Algorithms, Mathematical Modelling, Network Optimization and Evolutionary Algorithms. Published a paper on Benes Network Transmission while I was in my undergraduate course at Vellore Institute of Technology. I have experience in iOS, Android, and Web App development, developing real time projects. Co-Founded Eventze - Event management solution which is a cloud-based software. I worked on the business logic and production level debugging and deployment. I have worked on Linux kernel and Android Development for smartphone devices predominantly developing ClockWorkMod Recovery for OS manipulation and hacking. I do program in Python and C++ for research. ",
+  "roleDescription": " Skilled professional working for a promising fintech startup to break the boundaries of payments across the world. I have research as well as corporate experience with two published papers one accepted thesis and more than two years of professional software development experience. I contribute to opensource and have completed more than 50+ projects. Self-driven, astrophile, philomath.",
   "npmUsername": "adityak74",
   "socialLinks":[
       {
@@ -35,7 +35,7 @@ const resumeData = {
       }
     ],
   "instagramPageUsername": "tootemukhde",
-  "aboutme":"I am a Masters gradute in computer science, currently working as a software developer for a fintech company. I believe that sometimes life is going to hit you in the head with a brick. Don't lose faith.",
+  "aboutme":"I am an atomic dust particle navigating through magnetic fields of earth accelerating to achieve escape velocity. 90s music is always the best, memes are our future media for teaching. Cats or Dogs will be an open-ended question forever.",
   "address":"Earth",
   "website":"http://adityakarnam.me",
   "education":[
@@ -63,6 +63,13 @@ const resumeData = {
       "Achievements":"Manage complete full stack development and deployment with continuous integration of software cycle. Predominantly writing React, GraphQL, Bash, AWS Lambda scripts to integrate a complete payment/wallet system and developing a Payment Fraud System using Machine Learning. Stack: React, Redux, Most, Cordova, Native iOS/Android, AWS, Codebuild, Tensorflow, Hybrid Apps"
     },
     {
+      "CompanyName":"Aakashgangaa Space",
+      "specialization":"CEO and Co-Founder",
+      "MonthOfLeaving":"Current",
+      "YearOfLeaving":"",
+      "Achievements":"Colonialize moon by 2025."
+    },
+    {
       "CompanyName":"eventze",
       "specialization":"Co-Founder",
       "MonthOfLeaving":"Dec",
@@ -70,38 +77,32 @@ const resumeData = {
       "Achievements":"Built the foundations of Eventze Core SaaS product and managed end-to-end customer requirements to MVP cycle. Developed robust architectural pipelines and proposed modular deployment strategies for rapid iteration cycle. Helped in taking the MVP to a self sustainable SaaS product that served the customers for more than 2 years with minor modifications."
     }
   ],
-  "skillsDescription":"Stack: React, Redux, Most, Cordova, Native iOS/Android, AWS, Codebuild, Tensorflow, Hybrid Apps, Android, Kernel, IoT",
-  "skills":[
-    {
-      "skillname":"AWS"
-    },
-    {
-      "skillname":"GraphQL"
-    },
-    {
-      "skillname":"Reactjs"
-    },
-  ],
+  "skillsDescription":"Python, Tensorflow, React, Redux, Most, Cordova, Native iOS/Android, AWS, Codebuild, Hybrid Apps, Android, Kernel Development, IoT",
+  "skills":[],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/origami.jpg"
+      "name":"SeeFood",
+      "description":"SeeFood to eat healthy food.",
+      "imgurl":"images/portfolio/seefood.png",
+      "url": "https://github.com/adityak74/SeeFood"
     },
     {
-      "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/retrocam.jpg"
+      "name":"ERBGA",
+      "description":"Efficient Reduced BIAS Genetic Algorithm",
+      "imgurl":"images/portfolio/erbga.png",
+      "url": "https://irl.umsl.edu/thesis/331/"
     },
     {
-      "name":"project3",
-      "description":"mobileapp",  
-      "imgurl":"images/portfolio/retrocam.jpg"
+      "name":"BENES",
+      "description":"Transmission in Benes Network",  
+      "imgurl":"images/portfolio/benes.png",
+      "url": "https://acadpubl.eu/jsi/2016-109-si/8/20.pdf"
     },
     {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/origami.jpg"
+      "name":"stitchim",
+      "description":"Image stitching program for planetary image processing",
+      "imgurl":"images/portfolio/stitchim.png",
+      "url": "http://skaleguru.com/2019/10/20/stitching-moms-data/"
     }
   ],
 };

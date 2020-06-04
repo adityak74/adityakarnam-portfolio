@@ -13,12 +13,15 @@ export default class ContactUs extends Component {
                   alignContent: 'center',
                   width: '45%',
                 }} />
-                <Typing loop={true} speed={100}>
-                  <span>ISRO: Performance normal. Decoding message...../%@%/</span>
+                <Typing speed={50}>
+                  <span>ISRO: Performance normal. Sending message...../%@%/</span>
                   <br />
-                  <span>ISRO: Connecting to akarnam37@gmail.com</span>
-                  <Typing.Backspace count={100} />
+                  <span>Adi: Decoding Message. Pushing commits to git@adityak74</span>
                 </Typing>
+                <br /><br />
+                <div style={{ backgroundColor: 'white' }}>
+                  <div className="calendar" />
+                </div>
               </div>
             </aside>
           </center>
