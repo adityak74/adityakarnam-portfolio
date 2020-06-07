@@ -4,6 +4,10 @@ const resumeData = {
   "role": "Full Stack Developer",
   "linkedinId":"adityakarnamgrao",
   "skypeid": "",
+  "bannerData": {
+    "text": "Join RealRocketry on Reddit 🚀",
+    "url": "https://www.reddit.com/r/RealRocketry"
+  },
   "tagline": "Imagineer | Space Enthusiast | Chef | ML/DL Enthusiast | Innovator | Full Stack Developer",
   "roleDescription": " Skilled professional working for a promising fintech startup to break the boundaries of payments across the world. I have research as well as corporate experience with two published papers one accepted thesis and more than two years of professional software development experience. I contribute to opensource and have completed more than 50+ projects. Self-driven, astrophile, philomath.",
   "npmUsername": "adityak74",
@@ -103,7 +107,27 @@ const resumeData = {
       "description":"Image stitching program for planetary image processing",
       "imgurl":"images/portfolio/stitchim.png",
       "url": "http://skaleguru.com/2019/10/20/stitching-moms-data/"
-    }
+    },
+  ],
+  "rocketry":[
+    {
+      "name":"3D printing",
+      "description":"3D printed super bowl.",
+      "imgurl":"images/portfolio/3d-super-bowl.png",
+      "url": "http://skaleguru.com/2019/11/15/3d-printed-super-bowl/"
+    },
+    {
+      "name":"Bits and physics!💥🚀",
+      "description":"First model rocket",
+      "imgurl":"images/portfolio/model-rocketry.png",
+      "url": "#"
+    },
+    {
+      "name":"Live Hand Movement Tracker!",
+      "description":"hand movements tracker",
+      "imgurl":"images/portfolio/movement-tracker.png",
+      "url": "/images/portfolio/hand-movement-tracker.mp4"
+    },
   ],
 };
 

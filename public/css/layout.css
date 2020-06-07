@@ -1075,3 +1075,15 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+/* ------------------------------------------------------------------ */
+/* j. Banner
+/* ------------------------------------------------------------------ */
+
+#banner {
+   color: #D72828;
+   background: #FFCC01;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   overflow: hidden;
+}

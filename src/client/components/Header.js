@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Typing from 'react-typing-animation';
+import Banner from './Banner';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
       <header id="home">
          <nav id="nav-wrap">
+            <Banner resumeData={resumeData} />
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
