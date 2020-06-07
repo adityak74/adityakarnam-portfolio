@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 export default class PodcastSection extends Component {
   render() {
-    return (
+    const podcastSectionEnabled = this.props.resumeData.podcastSectionEnabled;
+    return podcastSectionEnabled ? (
       <section id="about">
          <div className="row">
           <div className="header-col">
@@ -18,6 +19,6 @@ export default class PodcastSection extends Component {
           </a>
          </div>
       </section>
-    );
+    ) : null;
   }
 }

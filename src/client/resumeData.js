@@ -5,9 +5,11 @@ const resumeData = {
   "linkedinId":"adityakarnamgrao",
   "skypeid": "",
   "bannerData": {
+    "enabled": true,
     "text": "Join RealRocketry on Reddit 🚀",
     "url": "https://www.reddit.com/r/RealRocketry"
   },
+  "podcastSectionEnabled": false,
   "tagline": "Imagineer | Space Enthusiast | Chef | ML/DL Enthusiast | Innovator | Full Stack Developer",
   "roleDescription": " Skilled professional working for a promising fintech startup to break the boundaries of payments across the world. I have research as well as corporate experience with two published papers one accepted thesis and more than two years of professional software development experience. I contribute to opensource and have completed more than 50+ projects. Self-driven, astrophile, philomath.",
   "npmUsername": "adityak74",
