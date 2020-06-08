@@ -76,11 +76,11 @@ const resumeData = {
       "Achievements":"Colonialize moon by 2025."
     },
     {
-      "CompanyName":"eventze",
+      "CompanyName":"eventzé",
       "specialization":"Co-Founder",
       "MonthOfLeaving":"Dec",
       "YearOfLeaving":"2017",
-      "Achievements":"Built the foundations of Eventze Core SaaS product and managed end-to-end customer requirements to MVP cycle. Developed robust architectural pipelines and proposed modular deployment strategies for rapid iteration cycle. Helped in taking the MVP to a self sustainable SaaS product that served the customers for more than 2 years with minor modifications."
+      "Achievements":"Built the foundations of eventzé Core SaaS product and managed end-to-end customer requirements to MVP cycle. Developed robust architectural pipelines and proposed modular deployment strategies for rapid iteration cycle. Helped in taking the MVP to a self sustainable SaaS product that served the customers for more than 2 years with minor modifications."
     }
   ],
   "skillsDescription":"Python, Tensorflow, React, Redux, Most, Cordova, Native iOS/Android, AWS, Codebuild, Hybrid Apps, Android, Kernel Development, IoT",
