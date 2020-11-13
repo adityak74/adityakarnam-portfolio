@@ -16,6 +16,7 @@ jobs:
           node-version: "12.x"
       - run: npm install
       - run: npm run build
+      - run: chmod +x copyArtifacts.sh
       - run: ./copyArtifacts.sh
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@v1.5.0
