@@ -22,7 +22,7 @@
     "npm-api": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-typing-animation": "^1.6.2",
+    "react-typing-animation": "1.6.2",
     "superagent": "5.2.2"
   },
   "devDependencies": {
