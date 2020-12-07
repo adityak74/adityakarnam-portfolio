@@ -6,8 +6,8 @@ const resumeData = {
   "skypeid": "",
   "bannerData": {
     "enabled": true,
-    "text": "Join RealRocketry on Reddit 🚀",
-    "url": "https://www.reddit.com/r/RealRocketry"
+    "text": "WazirX Crypto Visualizer API🚀",
+    "url": "https://wazirx-api.adityakarnam.me/"
   },
   "podcastSectionEnabled": false,
   "tagline": "Masters Graduate CS, Full Stack Developer, Self-driven, Entrepreneur, launched a SaaS event management platform, working at a fintech startup",
