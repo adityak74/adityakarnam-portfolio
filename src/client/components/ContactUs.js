@@ -18,10 +18,6 @@ export default class ContactUs extends Component {
                   <br />
                   <span>Adi: Decoding Message. Pushing commits to git@adityak74</span>
                 </Typing>
-                <br /><br />
-                <div style={{ backgroundColor: 'white' }}>
-                  <div className="calendar" />
-                </div>
               </div>
             </aside>
           </center>

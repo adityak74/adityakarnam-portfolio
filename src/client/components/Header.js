@@ -24,7 +24,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <Typing speed={100}>
-                <h1 className="responsive-headline">I am {resumeData.name}</h1>
+                <h1 className="responsive-headline">Create. Educate.</h1>
                </Typing>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.tagline}</h3>
                <hr/>
